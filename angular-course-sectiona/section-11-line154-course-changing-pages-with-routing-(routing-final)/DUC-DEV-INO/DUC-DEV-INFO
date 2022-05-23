@@ -1,0 +1,28 @@
+
+iscpkg update yarn;
+yarn global remove @angular/cli; yarn global add @angular/cli@11;
+ng --version
+
+
+
+npm install -g @angular/cli
+ng new my-app
+cd my-app
+ng serve --open
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+---------------------------------------------------------
+Error: node_modules/rxjs/Observable.d.ts:1:15 - error TS2307: Cannot find module 'rxjs-compat/Observable' or its corresponding type declarations.
+---------------------------------------------------------
+
+ng new
+
+===============================
+-- rxjs
+===============================
+npm install --save rxjs-compat
+
+===============================
+-- bootstrap
+===============================
+ng add @ng-bootstrap/ng-bootstrap
