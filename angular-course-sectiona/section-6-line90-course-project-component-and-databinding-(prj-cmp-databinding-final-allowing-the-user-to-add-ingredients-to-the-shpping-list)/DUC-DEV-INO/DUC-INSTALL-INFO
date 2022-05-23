@@ -1,0 +1,30 @@
+Beispiele
+shared-components-gui
+Die folgenden Commands wurden für die Migration des shared-components-gui von Angular 10 auf Angular 11 verwendet. Die Versionen in den Commands darum entsprechend anpassen!
+
+1) Angular-CLI global aktualisieren. Das muss nur einmalig bei der ersten Komponente gemacht werden
+
+#Angular-CLI global aktualisieren
+
+iscpkg update yarn;
+yarn global remove @angular/cli; yarn global add @angular/cli@11;
+
+# überprüfen, ob Angular 11.x.x installiert ist
+# pushd /tmp && ng --version; popd;
+
+ng --version
+
+Die Dependencies der Komponente aktualisieren
+
+Commands Angular-Migration
+# Die Dependencies aktualisierenng
+
+ng update --allow-dirty @angular/cli@^11 @angular/core@^11 @angular-eslint/schematics@^11
+ng update --allow-dirty tslib
+
+# Die Version von flex-Layout kann hier nachgeschaut werden: https://github.com/angular/flex-layout
+
+ng update --allow-dirty @angular/flex-layout@11.0.0-beta.33 @angular/material@^11 @angular/cdk@^11 --force
+ng update --allow-dirty ejpd-angular-material-components@^11
+ng update --allow-dirty @ngx-translate/core@^11 @ngx-translate/http-loader
+ng update --allow-dirty codelyzer rxjs
