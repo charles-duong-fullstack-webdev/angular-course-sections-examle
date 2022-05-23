@@ -2,5 +2,18 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-10-line123-course-project-service-and-depende-cy-injection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-11-line154-course-changing-pages-with-routing-(routing-final)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-5-line64-course-components-and-databinding-deep-dive--(start-Module-Introduction)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-5-line83-course-components-and-databinding-deep-dive--(final-Wrap-up)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-5-line84-course-components-and-databinding-deep-dive--(Assignment-Solution)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-6-line85-course-project-component-and-databinding-(prj-basics-final-Introdution)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-6-line90-course-project-component-and-databinding-(prj-cmp-databinding-final-allowing-the-user-to-add-ingredients-to-the-shpping-list)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-8-line103-course-course-projects-directives-(prj-directives-final)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-9-line105-course-using-services-and-deüemdemcy-injection-(services-start)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-9-line106-course-using-services-and-deüemdemcy-injection-(services-start)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-9-line113-course-using-services-and-deüemdemcy-injection-(services-final)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-9-line114-course-using-services-and-deüemdemcy-injection-(services-final)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-course-sectiona/section-9-line115-course-using-services-and-deüemdemcy-injection-(services-assignment-solution)" vcs="Git" />
   </component>
 </project>
